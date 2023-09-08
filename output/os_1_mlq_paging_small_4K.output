@@ -1,0 +1,172 @@
+Time slot   0
+ld_routine
+Time slot   1
+	Loaded a process at input/proc/p0s, PID: 1 PRIO: 130
+	CPU 1: Dispatched process  1
+Time slot   2
+	Loaded a process at input/proc/s3, PID: 2 PRIO: 39
+Time slot   3
+	CPU 2: Dispatched process  2
+	CPU 1: Put process  1 to run queue
+	CPU 3: Dispatched process  1
+Time slot   4
+	Loaded a process at input/proc/m1s, PID: 3 PRIO: 15
+Time slot   5
+	CPU 2: Put process  2 to run queue
+	CPU 0: Dispatched process  3
+	CPU 1: Dispatched process  2
+	CPU 3: Put process  1 to run queue
+Time slot   6
+	CPU 2: Dispatched process  1
+	Loaded a process at input/proc/s2, PID: 4 PRIO: 120
+Time slot   7
+write region=1 offset=20 value=100
+print_pgtbl: 0 - 1024
+00000000: 80000001
+00000004: 80000000
+00000008: 80000003
+00000012: 80000002
+	CPU 1: Put process  2 to run queue
+	CPU 1: Dispatched process  4
+	CPU 0: Put process  3 to run queue
+	CPU 0: Dispatched process  2
+	Loaded a process at input/proc/m0s, PID: 5 PRIO: 120
+	CPU 3: Dispatched process  3
+Time slot   8
+	CPU 2: Put process  1 to run queue
+	CPU 2: Dispatched process  5
+Time slot   9
+	CPU 1: Put process  4 to run queue
+	CPU 1: Dispatched process  1
+read region=1 offset=20 value=100
+print_pgtbl: 0 - 1024
+00000000: 80000001
+00000004: 80000000
+00000008: 80000003
+00000012: 80000002
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  4
+	Loaded a process at input/proc/p1s, PID: 6 PRIO: 15
+	CPU 3: Put process  3 to run queue
+	CPU 3: Dispatched process  2
+Time slot  10
+	CPU 2: Put process  5 to run queue
+	CPU 2: Dispatched process  3
+write region=2 offset=20 value=102
+print_pgtbl: 0 - 1024
+00000000: 80000001
+00000004: 80000000
+00000008: 80000003
+00000012: 80000002
+Time slot  11
+	CPU 1: Put process  1 to run queue
+	CPU 1: Dispatched process  6
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+	Loaded a process at input/proc/s0, PID: 7 PRIO: 38
+	CPU 3: Put process  2 to run queue
+	CPU 3: Dispatched process  5
+Time slot  12
+	CPU 2: Put process  3 to run queue
+	CPU 2: Dispatched process  1
+read region=2 offset=20 value=102
+print_pgtbl: 0 - 1024
+00000000: 80000001
+00000004: 80000000
+00000008: 80000003
+00000012: 80000002
+Time slot  13
+	CPU 1: Put process  6 to run queue
+	CPU 1: Dispatched process  6
+write region=3 offset=20 value=103
+print_pgtbl: 0 - 1024
+00000000: 80000001
+00000004: 80000000
+00000008: 80000003
+00000012: 80000002
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  3
+	CPU 3: Put process  5 to run queue
+	CPU 3: Dispatched process  7
+Time slot  14
+	CPU 2: Processed  1 has finished
+	CPU 2: Dispatched process  2
+Time slot  15
+	CPU 1: Put process  6 to run queue
+	CPU 1: Dispatched process  4
+	CPU 0: Processed  3 has finished
+	CPU 0: Dispatched process  5
+write region=1 offset=20 value=102
+print_pgtbl: 0 - 512
+00000000: 80000007
+00000004: 80000006
+	CPU 3: Put process  7 to run queue
+	CPU 3: Dispatched process  6
+Time slot  16
+	CPU 2: Put process  2 to run queue
+	CPU 2: Dispatched process  7
+write region=2 offset=1000 value=1
+print_pgtbl: 0 - 512
+00000000: 80000007
+00000004: 80000006
+	Loaded a process at input/proc/s1, PID: 8 PRIO: 0
+Time slot  17
+	CPU 1: Put process  4 to run queue
+	CPU 1: Dispatched process  2
+	CPU 0: Put process  5 to run queue
+	CPU 0: Dispatched process  4
+	CPU 3: Put process  6 to run queue
+	CPU 3: Dispatched process  5
+write region=0 offset=0 value=0
+print_pgtbl: 0 - 512
+00000000: 80000007
+00000004: c0000000
+Time slot  18
+	CPU 2: Put process  7 to run queue
+	CPU 2: Dispatched process  8
+	CPU 1: Processed  2 has finished
+	CPU 1: Dispatched process  6
+	CPU 3: Processed  5 has finished
+	CPU 3: Dispatched process  7
+Time slot  19
+	CPU 0: Put process  4 to run queue
+	CPU 0 stopped
+Time slot  20
+	CPU 2: Put process  8 to run queue
+	CPU 2: Dispatched process  4
+	CPU 1: Put process  6 to run queue
+	CPU 1: Dispatched process  8
+	CPU 3: Put process  7 to run queue
+	CPU 3: Dispatched process  6
+Time slot  21
+Time slot  22
+	CPU 2: Processed  4 has finished
+	CPU 2: Dispatched process  7
+	CPU 1: Put process  8 to run queue
+	CPU 1 stopped
+	CPU 3: Processed  6 has finished
+	CPU 3: Dispatched process  8
+Time slot  23
+Time slot  24
+	CPU 2: Put process  7 to run queue
+	CPU 2 stopped
+	CPU 3: Put process  8 to run queue
+	CPU 3: Dispatched process  7
+Time slot  25
+Time slot  26
+	CPU 3: Put process  7 to run queue
+	CPU 3: Dispatched process  8
+Time slot  27
+	CPU 3: Processed  8 has finished
+	CPU 3: Dispatched process  7
+Time slot  28
+Time slot  29
+	CPU 3: Put process  7 to run queue
+	CPU 3: Dispatched process  7
+Time slot  30
+Time slot  31
+	CPU 3: Put process  7 to run queue
+	CPU 3: Dispatched process  7
+Time slot  32
+	CPU 3: Processed  7 has finished
+	CPU 3 stopped

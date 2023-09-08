@@ -1,0 +1,185 @@
+Time slot   0
+ld_routine
+Time slot   1
+	Loaded a process at input/proc/s4, PID: 1 PRIO: 4
+Time slot   2
+	Loaded a process at input/proc/s3, PID: 2 PRIO: 3
+Time slot   3
+	CPU 0: Dispatched process  1
+Time slot   4
+	Loaded a process at input/proc/m1s, PID: 3 PRIO: 2
+Time slot   5
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  2
+Time slot   6
+	Loaded a process at input/proc/s2, PID: 4 PRIO: 3
+Time slot   7
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  1
+	Loaded a process at input/proc/m0s, PID: 5 PRIO: 3
+Time slot   8
+Time slot   9
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  3
+	Loaded a process at input/proc/p1s, PID: 6 PRIO: 2
+Time slot  10
+Time slot  11
+	CPU 0: Put process  3 to run queue
+	CPU 0: Dispatched process  4
+	Loaded a process at input/proc/s0, PID: 7 PRIO: 1
+Time slot  12
+Time slot  13
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+Time slot  14
+Time slot  15
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+Time slot  16
+	Loaded a process at input/proc/s1, PID: 8 PRIO: 0
+Time slot  17
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+Time slot  18
+Time slot  19
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+Time slot  20
+Time slot  21
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  4
+Time slot  22
+Time slot  23
+	CPU 0: Processed  4 has finished
+	CPU 0: Dispatched process  2
+Time slot  24
+Time slot  25
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  2
+Time slot  26
+Time slot  27
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  2
+Time slot  28
+Time slot  29
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  2
+Time slot  30
+Time slot  31
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  2
+Time slot  32
+	CPU 0: Processed  2 has finished
+	CPU 0: Dispatched process  5
+Time slot  33
+Time slot  34
+	CPU 0: Put process  5 to run queue
+	CPU 0: Dispatched process  1
+Time slot  35
+Time slot  36
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  8
+Time slot  37
+Time slot  38
+	CPU 0: Put process  8 to run queue
+	CPU 0: Dispatched process  7
+Time slot  39
+Time slot  40
+	CPU 0: Put process  7 to run queue
+	CPU 0: Dispatched process  3
+Time slot  41
+Time slot  42
+	CPU 0: Put process  3 to run queue
+	CPU 0: Dispatched process  3
+Time slot  43
+Time slot  44
+	CPU 0: Put process  3 to run queue
+	CPU 0: Dispatched process  3
+Time slot  45
+Time slot  46
+	CPU 0: Processed  3 has finished
+	CPU 0: Dispatched process  6
+Time slot  47
+Time slot  48
+	CPU 0: Put process  6 to run queue
+	CPU 0: Dispatched process  5
+Time slot  49
+Time slot  50
+	CPU 0: Put process  5 to run queue
+	CPU 0: Dispatched process  1
+Time slot  51
+	CPU 0: Processed  1 has finished
+	CPU 0: Dispatched process  8
+Time slot  52
+Time slot  53
+	CPU 0: Put process  8 to run queue
+	CPU 0: Dispatched process  7
+Time slot  54
+Time slot  55
+	CPU 0: Put process  7 to run queue
+	CPU 0: Dispatched process  6
+Time slot  56
+Time slot  57
+	CPU 0: Put process  6 to run queue
+	CPU 0: Dispatched process  5
+write region=1 offset=20 value=102
+print_pgtbl: 0 - 512
+00000000: 80000003
+00000004: 80000002
+Time slot  58
+write region=2 offset=1000 value=1
+print_pgtbl: 0 - 512
+00000000: 80000003
+00000004: 80000002
+Time slot  59
+	CPU 0: Put process  5 to run queue
+	CPU 0: Dispatched process  8
+Time slot  60
+Time slot  61
+	CPU 0: Put process  8 to run queue
+	CPU 0: Dispatched process  7
+Time slot  62
+Time slot  63
+	CPU 0: Put process  7 to run queue
+	CPU 0: Dispatched process  6
+Time slot  64
+Time slot  65
+	CPU 0: Put process  6 to run queue
+	CPU 0: Dispatched process  5
+write region=0 offset=0 value=0
+print_pgtbl: 0 - 512
+00000000: 80000003
+00000004: c0000000
+Time slot  66
+	CPU 0: Processed  5 has finished
+	CPU 0: Dispatched process  8
+Time slot  67
+	CPU 0: Processed  8 has finished
+	CPU 0: Dispatched process  7
+Time slot  68
+Time slot  69
+	CPU 0: Put process  7 to run queue
+	CPU 0: Dispatched process  6
+Time slot  70
+Time slot  71
+	CPU 0: Put process  6 to run queue
+	CPU 0: Dispatched process  7
+Time slot  72
+Time slot  73
+	CPU 0: Put process  7 to run queue
+	CPU 0: Dispatched process  6
+Time slot  74
+Time slot  75
+	CPU 0: Processed  6 has finished
+	CPU 0: Dispatched process  7
+Time slot  76
+Time slot  77
+	CPU 0: Put process  7 to run queue
+	CPU 0: Dispatched process  7
+Time slot  78
+Time slot  79
+	CPU 0: Put process  7 to run queue
+	CPU 0: Dispatched process  7
+Time slot  80
+	CPU 0: Processed  7 has finished
+	CPU 0 stopped

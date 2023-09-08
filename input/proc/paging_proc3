@@ -1,0 +1,11 @@
+10 10
+alloc 101 2
+alloc 111 1
+alloc 300 3
+alloc 100 0
+free 0
+alloc 200 0
+free 1
+free 2
+free 3
+free 0
