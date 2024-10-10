@@ -35,6 +35,14 @@ Through those modules, the OS allows mutliple processes created by users to shar
 - Makefile
 - input: Samples input used for verification
 - output: Samples output of the operating system
+  
+### 1.3 The overview of operations of the Scheduler:
+![Multi-Level Queue implementation in the Scheduler](https://github.com/user-attachments/assets/bc6243f7-a134-4dde-a630-3b5955c9ef48 "Multi-Level Queue implementation in the Scheduler")
+
+### 1.4 The overview of operations of the Virtual Memory Engine
+![Virtual Memory Engine](https://github.com/user-attachments/assets/730de9bd-08d5-43c1-8b1e-354e13a2acf3 "Virtual Memory Engine")
+
+
 ## 2. How to run ?
 **Start from your terminal (be sure that your terminal now is in project and at the same level(folder) with *Makefile*), type these command in order:**
 1. `make all` to create executable file (*os.exe*)
